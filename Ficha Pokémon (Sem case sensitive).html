@@ -9,7 +9,22 @@
 
 </head>
 <body>
-
+    <style>
+        @keyframes jumping {
+            0% {
+                transform: translateY(30px);
+            }
+            100% {
+                transform: translateY(10px);
+            }
+        }
+        img{ 
+            animation: jumping 650ms;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+        }
+       
+    </style>
     
     <div class="container bg-white">
 
